@@ -39,7 +39,7 @@ const webLinks = [
     },
     {
         title: 'Dokumentation',
-        url: 'https://www.med.wf/docs',
+        url: 'https://docs.med.wf',
         type: 'main',
         icon: '/docs.svg',
         on: true
@@ -95,6 +95,13 @@ const webLinks = [
         on: true
     },
     // Weitere Links
+    {
+        title: 'Changelog',
+        url: 'https://log.med.wf',
+        type: 'other',
+        icon: '/triangle.svg',
+        on: true
+    },
     {
         title: 'Wohnungssuche',
         url: '',
