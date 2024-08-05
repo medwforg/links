@@ -24,6 +24,20 @@ const webLinks = [
     },
     // Hauptlinks
     {
+        title: 'Erstsemester',
+        url: 'https://www.uni-frankfurt.de/62088424/Erstsemester',
+        type: 'main',
+        icon: '/calendar.svg',
+        on: true
+    },
+    {
+        title: 'WhatsApp Gruppe',
+        url: 'https://go.med.wf/whatsapp',
+        type: 'main',
+        icon: '/whatsapp.svg',
+        on: true
+    },
+    {
         title: 'Dokumentation',
         url: 'https://www.med.wf/docs',
         type: 'main',
