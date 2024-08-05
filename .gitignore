@@ -17,6 +17,7 @@
 
 # misc
 .DS_Store
+.nova
 
 # debug
 npm-debug.log*

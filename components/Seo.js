@@ -25,11 +25,11 @@ export default function Seo({ page }) {
                             alt: `${title}`,
                         },
                     ],
-                    site_name: 'vjy.me',
+                    site_name: `${seoData.openGraph.site_name}`,
                 }}
                 twitter={{
-                    handle: '@realvjy',
-                    site: 'vjy.me',
+                    handle: `${seoData.twitter.handle}`,
+                    site: `${seoData.twitter.site}`,
                     cardType: 'summary_large_image',
                 }}
                 additionalMetaTags={[{

@@ -1,24 +1,23 @@
 export default {
     openGraph: {
         type: 'website',
-        locale: 'en_IE',
-        title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
-        locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        locale: 'de_DE',
+        title: 'MED.wf - Links',
+        url: 'https://links.med.wf',
+        description: '',
+        keywords: '',
         images: [
             {
                 width: 1200,
                 height: 630,
-                url: `https://vjy.me/preview.jpg`,
+                url: `https://links.med.wf/banner.png`,
             },
         ],
-        site_name: 'realvjy',
+        site_name: 'MED.wf',
     },
     twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
+        handle: '@med-wf',
+        site: 'links.med.wf',
         cardType: 'summary_large_image',
     },
 };

@@ -50,13 +50,13 @@ const Links = () => {
   });
 
   // Get data for install section
-  const install = allLinks.filter((el) => {
-    return el.type === "install" && el.on
+  const main = allLinks.filter((el) => {
+    return el.type === "main" && el.on
   });
 
   // Get data for nfts
-  const nfts = allLinks.filter((el) => {
-    return el.type === "nft" && el.on
+  const secondary = allLinks.filter((el) => {
+    return el.type === "secondary" && el.on
   });
 
   // Get data for other section
@@ -122,13 +122,13 @@ const Links = () => {
               </LinkSection>
               {/* Social Icon */}
 
-              {/* Install Section */}
+              {/* Main Section */}
               {
-                install.length > 0 ?
+                main.length > 0 ?
                     <LinkSection>
-                      <h3>{install[0].type}</h3>
+                      <h3>Hauptlinks</h3>
                       {
-                        install.map((i) => {
+                        main.map((i) => {
                           return (
                               <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                                 <LinkBox>
@@ -140,15 +140,15 @@ const Links = () => {
                       }
                     </LinkSection> : ''
               }
-              {/* End Install Section */}
+              {/* End Main Section */}
 
-              {/* NFT Section */}
+              {/* Secondary Section */}
               {
-                nfts.length > 0 ?
+                secondary.length > 0 ?
                     <LinkSection>
-                      <h3>{nfts[0].type}s</h3>
+                      <h3>Partnerangebote</h3>
                       {
-                        nfts.map((i) => {
+                        secondary.map((i) => {
                           return (
                               <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                                 <LinkBox>
@@ -161,13 +161,13 @@ const Links = () => {
                     </LinkSection>
                     : ''
               }
-              {/* End NFT Section */}
+              {/* End Secondary Section */}
 
               {/* Other Section */}
               {
                 others.length > 0 ?
                     <LinkSection>
-                      <h3>{others[0].type}</h3>
+                      <h3>Weitere Links</h3>
                       {/* BioData.js > newProduct == true */}
                       {/* New Section will render once newProduct == true */}
                       {(newProduct) ? <NewSection>

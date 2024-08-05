@@ -1,21 +1,21 @@
 // date: 1 Aug, 2022
 const bioData = [
     {
-        name: 'nxt lnk',
-        username: 'nxtlnk.vercel.app',
-        url: 'https://nxtlnk.vercel.app',
-        titleImg: true,
-        avatar: '/avatar.png',
-        nftAvatar: true,
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk. ',
+        name: 'MED.wf - Links',
+        username: 'links.med.wf',
+        url: 'https://links.med.wf',
+        titleImg: false,
+        avatar: '/logo.png',
+        nftAvatar: false,
+        description: 'Klick dich hier durch bis der Arzt kommt.',
         descShow: true,
-        subdesc: 'Use this template and deploy on vercel for free',
+        subdesc: 'Stöber doch einfach nen bisschen rum.',
         subdescShow: true,
-        newProductUrl: 'https://3dicons.co',
+        newProductUrl: 'https://r.med.wf/aktuell',
         newProduct: true,
-        author: 'realvjy',
-        authorURL: 'https://twitter.com/realvjy',
-        footerText: 'made by'
+        author: 'MED.wf',
+        authorURL: 'https://www.med.wf',
+        footerText: 'Mit 🫀 erstellt von '
     },
 ];
 
