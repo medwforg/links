@@ -31,6 +31,13 @@ const webLinks = [
         on: true
     },
     {
+        title: 'Digitale Campus-Führung',
+        url: 'https://r.med.wf/campusvideo',
+        type: 'main',
+        icon: '/youtube.svg',
+        on: true
+    },
+    {
         title: 'WhatsApp Gruppe',
         url: 'https://r.med.wf/whatsapp',
         type: 'main',
