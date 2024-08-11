@@ -12,7 +12,7 @@ const bioData = [
         subdesc: 'Stöber doch einfach nen bisschen rum.',
         subdescShow: true,
         newProductUrl: 'https://r.med.wf/aktuell',
-        newProduct: true,
+        newProduct: false,
         author: 'MED.wf',
         authorURL: 'https://www.med.wf',
         footerText: 'Mit 🫀 erstellt von '

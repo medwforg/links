@@ -3,14 +3,14 @@ const webLinks = [
     // All social profile
     {
         title: 'Instagram',
-        url: 'https://www.instagram.com/glm_gemeinsameliste/?hl=de',
+        url: 'https://r.med.wf/glmi',
         type: 'social',
         icon: '/instagram.svg',
         on: true
     },
     {
         title: 'Twitter',
-        url: 'https://x.com/goetheuni',
+        url: 'https://r.med.wf/uni-x',
         type: 'social',
         icon: '/twitter.svg',
         on: true
@@ -25,14 +25,14 @@ const webLinks = [
     // Hauptlinks
     {
         title: 'Erstsemester',
-        url: 'https://www.uni-frankfurt.de/62088424/Erstsemester',
+        url: 'https://r.med.wf/erstis',
         type: 'main',
         icon: '/calendar.svg',
         on: true
     },
     {
         title: 'WhatsApp Gruppe',
-        url: 'https://go.med.wf/whatsapp',
+        url: 'https://r.med.wf/whatsapp',
         type: 'main',
         icon: '/whatsapp.svg',
         on: true
@@ -42,25 +42,25 @@ const webLinks = [
         url: 'https://docs.med.wf',
         type: 'main',
         icon: '/docs.svg',
-        on: true
+        on: false
     },
     {
         title: 'FB 16 Medizin',
-        url: 'https://www.uni-frankfurt.de/54233767/Fachbereich',
+        url: 'https://r.med.wf/fachbereich',
         type: 'main',
         icon: '/stethoscope.svg',
         on: true
     },
     {
         title: 'Studienordnung Medizin',
-        url: 'https://www.uni-frankfurt.de/62689885/FB_16___Medizin',
+        url: 'https://r.med.wf/studienordnung',
         type: 'main',
         icon: '/medicalclipboard.svg',
         on: true
     },
     {
         title: 'KGU Lageplan',
-        url: 'https://kgu.de/fileadmin/Presse/Lageplan2024.pdf',
+        url: 'https://r.med.wf/lageplan',
         type: 'main',
         icon: '/hospital.svg',
         on: true
@@ -68,28 +68,28 @@ const webLinks = [
     // Partnerangebote
     {
         title: 'AMBOSS',
-        url: 'https://www.amboss.com/de',
+        url: 'https://r.med.wf/amboss',
         type: 'secondary',
         icon: '/amboss.svg',
         on: true
     },
     {
         title: 'MEDI-LEARN Club',
-        url: 'https://medi-learn.de/club/',
+        url: 'https://r.med.wf/medi-learn',
         type: 'secondary',
         icon: '/medi-learn.svg',
         on: true
     },
     {
         title: 'Marburger Bund',
-        url: 'https://www.marburger-bund.de/dein-vorteile-studium',
+        url: 'https://r.med.wf/marburger-bund',
         type: 'secondary',
         icon: '/marburgerbund.svg',
         on: true
     },
     {
         title: 'apoBank',
-        url: 'https://www.apobank.de/studenten',
+        url: 'https://r.med.wf/apobank',
         type: 'secondary',
         icon: '/apobank.svg',
         on: true
@@ -100,18 +100,18 @@ const webLinks = [
         url: 'https://log.med.wf',
         type: 'other',
         icon: '/triangle.svg',
-        on: true
+        on: false
     },
     {
         title: 'Wohnungssuche',
         url: '',
         type: 'other',
         icon: '/house.svg',
-        on: true
+        on: false
     },
     {
         title: 'HLfGP',
-        url: 'https://hlfgp.hessen.de/akademische-gesundheitsberufe/zustaendige-ansprechpartnerinnen-humanmedizin',
+        url: 'https://r.med.wf/hlfgp',
         type: 'other',
         icon: '/hessen.svg',
         on: true
